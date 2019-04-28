@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import Client from 'shopify-buy';
-import '../../shared/app.css';
+import './css/app.css';
 
 const client = Client.buildClient({
   storefrontAccessToken: "b20ee5a03cf88e77bfb54b05b61fa7f9",
